@@ -3,7 +3,7 @@ build-backend = "hatchling.build"
 requires = ["hatchling"]
 
 [project]
-authors = [{name = "REPLACE_NAME REPLACE_SURNAME"}]
+authors = [{name = "Alvaro Bartolome", email = "alvarobartt@gmail.com"}]
 classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python",
@@ -15,21 +15,21 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = []
-description = "REPLACE_PACKAGE_DESCRIPTION"
+description = "🚀 Context Manager to run `uvicorn` ASGI applications"
 dynamic = ["version"]
 keywords = []
 license = "MIT"
-name = "REPLACE_PACKAGE_NAME"
+name = "uvicorn_context_manager"
 readme = "README.md"
 requires-python = ">=3.7"
 
 [project.urls]
-Documentation = "https://REPLACE_GITHUB_USERNAME.github.io/REPLACE_PACKAGE_NAME"
-Issues = "https://github.com/REPLACE_GITHUB_USERNAME/REPLACE_PACKAGE_NAME/issues"
-Source = "https://github.com/REPLACE_GITHUB_USERNAME/REPLACE_PACKAGE_NAME"
+Documentation = "https://alvarobartt.github.io/uvicorn_context_manager"
+Issues = "https://github.com/alvarobartt/uvicorn_context_manager/issues"
+Source = "https://github.com/alvarobartt/uvicorn_context_manager"
 
 [tool.hatch.version]
-path = "src/REPLACE_PACKAGE_NAME/__init__.py"
+path = "src/uvicorn_context_manager/__init__.py"
 
 [project.optional-dependencies]
 docs = [
@@ -40,7 +40,7 @@ docs = [
 ]
 quality = [
   "black~=22.10.0",
-  "ruff~=0.0.194",
+  "ruff~=0.0.245",
   "pre-commit~=2.20.0",
 ]
 tests = [
@@ -79,7 +79,7 @@ select = [
 ]
 
 [tool.ruff.isort]
-known-first-party = ["REPLACE_PACKAGE_NAME"]
+known-first-party = ["uvicorn_context_manager"]
 
 [tool.hatch.envs.test]
 features = [

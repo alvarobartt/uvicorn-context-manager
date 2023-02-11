@@ -1,3 +1,3 @@
-# REPLACE_PACKAGE_NAME
+# uvicorn_context_manager
 
-REPLACE_PACKAGE_DESCRIPTION
+🚀 Context Manager to run `uvicorn` ASGI applications

@@ -13,9 +13,9 @@
 
 ## 🚚 Replacements
 
-* `REPLACE_PACKAGE_NAME`: name of the package (usually the same name as the repository in which it's hosted).
-* `REPLACE_PACKAGE_DESCRIPTION`: description of the package.
-* `REPLACE_NAME`: user's name.
-* `REPLACE_SURNAME`: user's surname.
-* `REPLACE_EMAIL`: user's email.
-* `REPLACE_GITHUB_USERNAME`: GitHub username of the package owner.
+* `uvicorn_context_manager`: name of the package (usually the same name as the repository in which it's hosted).
+* `🚀 Context Manager to run `uvicorn` ASGI applications`: description of the package.
+* `Alvaro`: user's name.
+* `Bartolome`: user's surname.
+* `alvarobartt@gmail.com`: user's email.
+* `alvarobartt`: GitHub username of the package owner.
