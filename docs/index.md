@@ -1,3 +1,3 @@
-# uvicorn_context_manager
+# 🚀 Context Manager to run `uvicorn` ASGI applications
 
-🚀 Context Manager to run `uvicorn` ASGI applications
+WIP
