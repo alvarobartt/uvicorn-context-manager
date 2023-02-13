@@ -1,6 +1,7 @@
 import pytest
+from fastapi import FastAPI
 
 
 @pytest.fixture
-def hello_world() -> str:
-    return "hello world!"
+def asgi_app() -> FastAPI:
+    return FastAPI()
