@@ -47,6 +47,8 @@ quality = [
 ]
 tests = [
   "pytest~=7.1.2",
+  "fastapi~=0.91.0",
+  "httpx~=0.23.3",
 ]
 
 [tool.hatch.envs.quality]
@@ -112,10 +114,7 @@ exclude = [
   "/.github",
   "/.vscode",
   "/docs",
-  "/.devcontainer",
   "/.pre-commit-config.yaml",
   "/.gitignore",
   "/tests",
-  "/Dockerfile",
-  "/.dockerignore",
 ]
