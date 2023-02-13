@@ -1,23 +1,7 @@
-## ✨ Features
+## What's in this PR?
 
-- List
-- implemented
-- features
-- here
+...
 
-## 🐛 Bug Fixes
+## What's missing in this PR? [optional]
 
-- Listed
-- fixed
-- bugs
-- here
-
-## 🔗 Linked Issue/s
-
-Add here the reference to the issue/s referenced in this PR
-
-## 🧪 Tests
-
-- [ ] Did you implement unit tests if required?
-
-If the above checkbox is checked, describe how you unit-tested it.
+...
