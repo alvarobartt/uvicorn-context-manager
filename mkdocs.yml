@@ -48,4 +48,7 @@ extra:
 
 nav:
   - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Credits: credits.md
   - License: license.md
