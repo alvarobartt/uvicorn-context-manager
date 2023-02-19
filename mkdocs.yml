@@ -1,10 +1,10 @@
 site_name: uvicorn_context_manager
-site_url: https://github.com/alvarobartt/uvicorn_context_manager
+site_url: https://github.com/alvarobartt/uvicorn-context-manager
 site_author: Alvaro Bartolome
 site_description: 🚀 Context Manager to run `uvicorn` ASGI applications
 
 repo_name: alvarobartt/uvicorn_context_manager
-repo_url: https://github.com/alvarobartt/uvicorn_context_manager
+repo_url: https://github.com/alvarobartt/uvicorn-context-manager
 
 copyright: Copyright (c) 2023-present Alvaro Bartolome <alvarobartt@gmail.com>
 
